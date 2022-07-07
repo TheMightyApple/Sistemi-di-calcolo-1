@@ -1,0 +1,10 @@
+Qual è lo speedup ottenibile per un programma se riduciamo del 10% una sua porzione che
+richiede il 20% del tempo di esecuzione?
+
+alpha = 0.2
+
+T' = T - 0.1*T = T*(1-0.1) = T*0.9
+
+k = T/T' = T/(T*0.9/T) = 1/0.9 = 10/9
+
+speedup = 1/(0.2/(10/9)+1-0.2)

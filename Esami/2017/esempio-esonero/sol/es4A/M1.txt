@@ -1,0 +1,3 @@
+escludo A e B: stuff non è in mkl
+escludo D: stuff non è in home
+

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------------
+1. Descrivere le ottimizzazioni applicate e dire perché si ritiene che siano efficaci
+
+Due ottimizzazioni sono possibili:
+1) CSE: invocazione di conta
+2) cortocicuitazione
+
+(1) non viene fatta dal compilatore in automatico perchè la funziona conta risulta essere in un altro modulo.
+
+(2) non viene fatta dal compilatore perchè modifica la logica del programma.
+
+-------------------------------------------------------------------------------------
+2. Riportare la media dei tempi di esecuzione (real) di es3A e di es3A-opt su tre run usando il comando time 
+
+-------------------------------------------------------------------------------------
+3. Dire di quante volte è più veloce l’eseguibile es3A-opt rispetto a es3A (speedup)
+
